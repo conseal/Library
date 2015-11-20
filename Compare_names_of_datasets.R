@@ -1,9 +1,9 @@
-setwd("H:\\Dateneingangskontrolle\\Datorium\\Posaunenchorbefragung 2012")
+setwd("H:\\Dateneingangskontrolle\\")
 
 library(foreign)
 
-mitg <- read.spss("Mitglieder.sav", to.data.frame = TRUE)
-mitgChor <- read.spss("Mitglieder_mit_chorleiterdaten.sav", to.data.frame = TRUE)
+mitg <- read.spss("datei1.sav", to.data.frame = TRUE)
+mitgChor <- read.spss("datei2.sav", to.data.frame = TRUE)
 
 a1 <- names(mitg)
 a2 <- names(mitgChor)
